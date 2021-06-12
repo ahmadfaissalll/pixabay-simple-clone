@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>experiment</title>
+</head>
+
+<body>
+
+    <div id="topbar">
+        <div id="logo-bar">
+            <a href="https://pixabay.com/id">
+                <img src="My Data/pixabay.JPG" alt="">
+            </a>
+        </div>
+
+        <div id="menu-bar">
+            <a href="https://pixabay.com/id/photos">Fotos</a>
+            <a href="https://pixabay.com/id/illustrations">Ilustrasi</a>
+            <a href="https://pixabay.com/id/vectors/">Vektor</a>
+            <a href="https://pixabay.com/id/videos/">Video</a>
+            <a href="https://pixabay.com/id/music">Musik</a>
+        </div>
+
+        <div id="right-bar">
+            <span>Jelajahi</span>
+            <span>Masuk</span>
+            <span>Join</span>
+        </div>
+        <img src="My Data/unggah-icon.JPG" id="upload" alt="">
+
+    </div>
+
+    <div id="image">
+        <img src="My Data/iceland.jpg" id="iceland" alt="">
+        <span id="header">Stunning free photos</span>
+        <span id="article">Temukan lebih dari 2,3 juta gambar dan video yang dibagikan oleh komunitas kami yang
+            dermawan.</span>
+    </div>
+
+    <div id="search-bar">
+
+        <input type="image" src="My Data/search-logo.JPG" id="search-logo" alt="">
+
+        <input list="search" placeholder="Cari gambar, vektor, dan video">
+
+        <datalist id="search">
+            <option value="Twitter"></option>
+            <option value="Facebook"></option>
+            <option value="Instagram"></option>
+            <option value="Youtube"></option>
+            <option value="Whatsapp"></option>
+        </datalist>
+
+    </div>
+
+    <div id="popular-searches">
+        <a>Popular image: </a>
+        <a href="https://pixabay.com/id/photos/search/background/">Background</a>
+        <a href="https://pixabay.com/id/photos/search/indonesia/">, Indonesia</a>
+        <a href="https://pixabay.com/id/photos/search/bunga/">, bunga</a>
+        <a href="https://pixabay.com/id/photos/search/ppt/">, ppt</a>
+        <a href="https://pixabay.com/id/photos/search/pemandangan/">, pemandangan</a>
+        <a href="https://pixabay.com/id/photos/search/masjid/">, masjid</a>
+        <a href="https://pixabay.com/id/photos/search/nature/">, nature</a>
+        <a href="https://pixabay.com/id/photos/search/muslim/">, muslim</a>
+        <a href="https://pixabay.com/id/photos/search/alam/">, alam</a>
+        <a href="https://pixabay.com/id/photos/search/flower/">, flower</a>
+        <a href="https://pixabay.com/id/photos/search/buku/">, buku</a>
+        <a href="https://pixabay.com/id/photos/search/kucing/">, kucing</a>
+    </div>
+
+    <div id="bottom-article">
+        <a id="bottom-article" href="https://pixabay.com/id/photos/islandia-laut-ocean-alam-air-4957449/">Gambar-gambar
+            gratis dari Ludo-Photos</a>
+    </div>
+
+</body>
+
+</html>
