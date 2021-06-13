@@ -1,0 +1,142 @@
+body {
+            font-family: 'Segoe UI';
+            margin: 0;
+            padding: 0;
+        }
+
+        div#topbar {
+            height: 50px;
+            margin-top: 12px;
+            position: relative;
+        }
+
+        div#logo-bar {
+            width: 100px;
+            position: absolute;
+            border-bottom: 2px solid transparent;
+            top: 9px;
+            left: 10px;
+        }
+
+        div#menu-bar {
+            position: absolute;
+            left: 170px;
+            height: 37px;
+            top: 10px;
+        }
+
+        div#menu-bar a {
+            text-decoration: none;
+            color: #8B8C92;
+            border-bottom: 3px solid transparent;
+            margin-left: 25px;
+        }
+
+        div#menu-bar a:hover {
+            border-bottom-color: #29C884;
+        }
+
+        div#right-bar {
+            position: absolute;
+            top: 9px;
+            right: 190px;
+        }
+
+        div#right-bar span {
+            color: #8B8C92;
+            margin-left: 40px;
+            border-bottom: 2px solid transparent;
+        }
+
+        div#right-bar span:hover {
+            cursor: pointer;
+            border-bottom-color: #29C884;
+        }
+
+        img#upload {
+            position: absolute;
+            right: 25px;
+            top: -2px;
+        }
+
+        div#image {
+            position: relative;
+        }
+
+        div#image img#iceland {
+            height: 550px;
+            filter: brightness(80%);
+            width: 100%;
+        }
+
+        span#header,
+        span#article {
+            color: white;
+            position: absolute;
+        }
+
+        div#image span#header {
+            top: 27%;
+            font-size: 2.2em;
+            font-weight: 600;
+            left: 40%;
+        }
+
+        div#image span#article {
+            top: 40%;
+            left: 26%;
+        }
+
+        div#search-bar {
+            position: absolute;
+            top: 345px;
+            left: 23%;
+        }
+
+        input#search-logo {
+            position: relative;
+            left: 40px;
+            top: 7px;
+        }
+
+        input[list="search"] {
+            border-radius: 5px;
+            border: none;
+            height: 55px;
+            width: 720px;
+            padding-left: 50px;
+            font-size: 1.1em;
+        }
+
+        input::placeholder {
+            color: #BBBBBB;
+        }
+
+        div#bottom-article {
+            position: absolute;
+            left: 40%;
+            bottom: 85px;
+        }
+
+        div#bottom-article a {
+            text-decoration: none;
+            color: #DDDDDD;
+        }
+
+        div#bottom-article a:hover {
+            color: white;
+        }
+
+        div#popular-searches {
+            position: absolute;
+            left: 22%;
+            width: 830px;
+            bottom: 233px;
+        }
+
+        div#popular-searches a {
+            text-decoration: none;
+            color: #ededed;
+            font-size: 0.95em;
+            filter: opacity(0.55);
+        }
